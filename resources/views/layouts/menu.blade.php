@@ -429,7 +429,7 @@
             <a class="nav-link  d-flex align-items-center py-3" href="{{ $serviceMgt }}">
                 <span class="aside-menu-icon me-3"><i class="fas fa-box"></i></span>
                 <span class="aside-menu-title">{{ __('messages.services') }}</span>
-                <span class="d-none">{{ __('messages.insurances') }}</span>
+                {{-- <span class="d-none">{{ __('messages.insurances') }}</span> --}}
                 <span class="d-none">{{ __('messages.packages') }}</span>
                 <span class="d-none">{{ __('messages.services') }}</span>
                 <span class="d-none">{{ __('messages.ambulances') }}</span>
